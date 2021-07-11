@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+cat $1 | grep trace >tracing/$1
+cd tracing
+./separate.1 $1
+cd -
+
+cat $1 | grep -v trace >nottracing/$1
+cd nottracing
+./separate.1 $1
+cd -

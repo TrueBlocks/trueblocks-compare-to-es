@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cat $1 | grep input >input/$1
+cat $1 | grep output >output/$1
+cat $1 | grep to >to/$1
+cat $1 | grep -v to | grep -v output | grep -v input >other/$1

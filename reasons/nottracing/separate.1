@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+cat $1 | grep log | grep topic >logs/topics/$1
+cat $1 | grep log | grep data >logs/data/$1
+cat $1 | grep log | grep -v topic | grep -v data >logs/other/$1
+
+cat $1 | grep -v log | grep from >notlogs/from/$1
+cat $1 | grep -v log | grep to >notlogs/to/$1
+cat $1 | grep -v log | grep uncle >notlogs/uncle/$1
+cat $1 | grep -v log | grep input >notlogs/input/$1
+cat $1 | grep -v log | grep -v from | grep -v to | grep -v uncle | grep -v input >notlogs/other/$1
