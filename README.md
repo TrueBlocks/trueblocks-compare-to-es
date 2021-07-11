@@ -16,6 +16,6 @@ Without too much explaination, this repo show a comparison between TrueBlocks an
 
 We produced two spreadsheets to show the data:
 
-[Comparison with EtherScan](https://docs.google.com/spreadsheets/d/1us7d03vDCMu23YCp9z5XOaxQ7FIk88U8FhKL4535-1A/edit#gid=683722752).
+[Comparison with EtherScan](https://docs.google.com/spreadsheets/d/1us7d03vDCMu23YCp9z5XOaxQ7FIk88U8FhKL4535-1A/edit#gid=683722752)
 
 [Analysis of Differences](https://docs.google.com/spreadsheets/d/1uz941pXiN8NJriQo3XSDk8zo3ZGIGu1KjmsyHRiRsoM/edit#gid=1729668223)
